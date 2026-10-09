@@ -1,0 +1,46 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Runtime data and generated outputs
+data/chroma/
+data/uploads/
+data/reports/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+reply_graph.png
+
+# Local model files
+models/
+*.bin
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.map
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Private documents and exported artifacts
+*.doc
+*.docx
